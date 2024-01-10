@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="donation.css">
+</head>
+<body>
+    <h1>פרטי התרומה שלי</h1>
+
+    <form>
+        <div class="coins">
+            <label for="coins">בחר מטבע</label>
+            <select name="coins" id="coins">
+                <option value="ILS">ILS</option>
+                <option value="USD">USD</option>
+            </select>
+        </div>
+
+        <div class="sum-donation">
+            <label for="sum-donation">הזן סכום</label>
+            <input type="text" id="sum-donation" name="sum-donation">
+        </div>
+
+        <div class="full-name">
+            <label for="full-name">שם מלא</label>
+            <input type="text" name="full-name" id="full-name">
+        </div>
+
+        <div class="phone-num">
+            <label for="phone-num">טלפון</label>
+            <input type="text" name="phone-num" id="phone-num">    
+        </div>
+        
+        <div class="email-address">
+            <label for="email-address">אימייל</label>
+            <input type="text" name="email-address" id="email-address">
+        </div>
+
+        <div class="anonimously">
+            <input type="checkbox" name="anonimously" id="anonimously">
+            <label for="anonimously">אני רוצה לתרום באופן אנונימי</label>
+        </div>
+
+        <div class="submit">
+            <input type="submit" name="submit" id="submit" value="תרמו עכשיו">
+        </div>
+        
+    </form>
+    
+</body>
+</html>
