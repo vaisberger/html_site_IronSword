@@ -36,7 +36,6 @@ h1{
     display:flex;
     grid-row: 3;
     margin: auto;
-
     align-items: center;
 }
 #wartitle{
@@ -60,12 +59,15 @@ h1{
 
 #grid_main_page{
     display: grid;
-    grid-template-rows: 80px 10px 800px;
+    grid-template-rows: 80px 10px 800px 500px;
 
 }
 
-#discription{
-    z-index: 0;
+#article{
+    grid-row: 4;
+    padding: 0px  100px 100px 80px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #countdown{
@@ -82,22 +84,31 @@ h1{
 
 footer{
     display: grid;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 200px 50px;
     margin: auto;
 }
 
 #nav_footer{
     border: 0px;
+    padding-bottom: 0px;
+    align-content: end;
 }
 
 #icons{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
 #facebook, #instagram, #youtube{
     width: 30px;
     grid-row: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+#contact, #follow, #about{
+    color: red;
 }
