@@ -4,7 +4,6 @@ body{
 }
 .navigation_bar{
     display:flex;
-    display: flex;
     justify-content: space-around;
     border-bottom: 2px solid red;
     align-items: center;
