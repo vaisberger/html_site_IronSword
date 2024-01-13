@@ -1,9 +1,9 @@
 #heart{
-    width: 118px;
+    width: 90px;
 
 }
 table, th, td {
-  border: 1px solid white;
+
   border-collapse: collapse;
   width: 100%;
 }
@@ -32,3 +32,37 @@ h1,h2{
 body{
     background-color: black;
 }
+
+footer{
+    display: grid;
+    grid-template-rows: 100px 50px;
+    margin: auto;
+}
+
+#nav_footer{
+    border: 0px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    align-content: end;
+    grid-row: 1;
+}
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#facebook, #instagram, #youtube{
+    width: 30px;
+    grid-row: 2;
+}
+
+a{
+    text-decoration: none;
+}
+
+#contact, #follow, #about{
+    color: red;
+}
+
