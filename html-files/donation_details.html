@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css-files/donation-details.css">
+    <title>פרטי תרומה</title>
+</head>
+<body>
+
+    <form id="donation-form">
+        <div class="sum-donation" >
+            <label for="sum-donation">בחרו סכום לתרומה</label>
+            <input type="radio" id="amount10" name="donationAmount">
+            <label for="amount10">100₪</label>
+    
+            <input type="radio" id="amount20" name="donationAmount">
+            <label for="amount20">200₪</label>
+    
+            <input type="radio" id="amount50" name="donationAmount">
+            <label for="amount50">500₪</label>
+        
+            <input type="radio" id="customAmount" name="donationAmount">
+            <label id="customAmountLabel" for="customAmount" contenteditable="true"></label>
+        </div>
+    
+        <div id="donation-purpose">
+            <label for="donationPurpose">אני רוצה לתרום ל-</label>
+            <select id="donationPurpose" name="donationPurpose">
+                <option value="חיילים">חיילים</option>
+                <option value="חטופים">חטופים</option>
+                <option value="אין העדפה">אין העדפה</option>
+            </select>
+        </div>
+    
+        <div class="full-name">
+            <label for="full-name">שם מלא</label>
+            <input type="text" name="full-name" id="full-name" required>
+        </div>
+    
+        <div class="phone-num">
+            <label for="phone-num">טלפון</label>
+            <input type="text" name="phone-num" id="phone-num" required>    
+        </div>
+        
+        <div class="email-address">
+            <label for="email-address">אימייל</label>
+            <input type="text" name="email-address" id="email-address">
+        </div>
+    
+        <div class="payment_method">
+            <label for="payment_method">בחרו אמצעי תשלום</label>
+    
+            <div name="payment_options" id="payment_options">
+                <a id="credit_payment" href="/html-files/credit_payment.html" target="_self">
+                    <img src="/images/icon_credit_card2.png">
+                </a>
+                <a id="paypal_payment" href="/html-files/paypal_payment.html" target="_self">
+                    <img src="/images/paypal_icon1.png">
+                </a>
+                <a id="bit_payment" href="/html-files/bit_payment.html" target="_self">
+                    <img src="/images/bit_icon1.png">
+                </a>
+    
+               
+            </div>
+        </div>
+    
+        <embed type="text/html"  id="payment-details" src="/html-files/credit_payment.html"></iframe>
+    
+        <!--div class="anonimously">
+            <input type="checkbox" name="anonimously" id="anonimously">
+            <label for="anonimously">אני רוצה לתרום באופן אנונימי</label>
+        </div-->
+        
+    </form>
+</body>
+</html>
+

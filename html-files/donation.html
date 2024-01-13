@@ -1,63 +1,46 @@
 <!DOCTYPE html>
-<html lang="he">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>עמוד תרומה</title>
     <link rel="stylesheet" href="/css-files/donation.css">
+
 </head>
 <body>
-    <h1>פרטי התרומה שלי</h1>
-
-    <form>
-        <div class="coins">
-            <label for="coins">בחר מטבע</label>
-            <select name="coins" id="coins">
-                <option value="ILS">ILS</option>
-                <option value="USD">USD</option>
-            </select>
-        </div>
-
-        <div class="sum-donation">
-            <label for="sum-donation">הזן סכום</label>
-            <input type="text" id="sum-donation" name="sum-donation">
-        </div>
-
-        <div class="full-name">
-            <label for="full-name">שם מלא</label>
-            <input type="text" name="full-name" id="full-name">
-        </div>
-
-        <div class="phone-num">
-            <label for="phone-num">טלפון</label>
-            <input type="text" name="phone-num" id="phone-num">    
-        </div>
+    
+    <div id="opening">
+        <iframe src="/html-files/navigation_bar.html" type="text/html" width="100%" height="100px" frameborder="0">
+        </iframe>  
+        <h1 style="padding-bottom: 100px;">כולנו אחים ולאח דואגים</h1>
         
-        <div class="email-address">
-            <label for="email-address">אימייל</label>
-            <input type="text" name="email-address" id="email-address">
+        <div id="kidnappeds-opening">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7g-ZTfPahq8?si=VQGfLI5HeklnlTgd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </iframe>
+            <div id="kidnappeds-description">
+                <h2 class="">מחזירים אותם הבייתה</h2>
+                <p>
+                    .מחזירים את החטופים והנעדרים הביתה! מתגייסים כדי להעניק תמיכה למשפחות בשעתן הקשה וליווי מקצועי במאמצים בארץ ובעולם להחזיר את הנעדרים    
+                </p>
+            </div>
+            
         </div>
-
-        <div class="way_of_payment">
-            <label for="payment_ways"></label>
-            <div id="payment_ways">
-                <img>
-                <img>
-                <img>
+        <div id="soldiers-opening">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/K8mthJkLWms?si=cNtCsTWI8t7ChxK2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div id="soldiers-description">
+                <h2> נותנים יד לחיילים</h2>
+            <p>זאת העת לתרום, לסייע ולעשות כל מה שביכולתנו כדי לתמוך בלוחמים שמוסרים את נפשם בשבילנו. תורמים ודואגים לחיילים הצדיקים שלנו כדי שיהיה להם את כל מה שהם צריכים. </p>
             </div>
         </div>
+    </div>
+    
 
-        <div class="anonimously">
-            <input type="checkbox" name="anonimously" id="anonimously">
-            <label for="anonimously">אני רוצה לתרום באופן אנונימי</label>
-        </div>
+    <div id="donation-details"> 
+        <h1 id="details-title">פרטי התרומה שלי</h1>
+   
+        <iframe src="/html-files/donation_details.html"  type="text/html" height="700px" width="100%" frameborder="0">
+    </div>
 
-        <div class="submit">
-            <input type="submit" name="submit" id="submit" value="תרמו עכשיו">
-        </div>
-        
-    </form>
     
 </body>
 </html>
