@@ -5,7 +5,12 @@
 table, th, td {
 
   border-collapse: collapse;
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+td{
+    border: 25px solid black;
 }
 th, td {
   background-color: black;
