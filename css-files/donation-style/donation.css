@@ -1,0 +1,51 @@
+body{
+    direction: rtl; /*change the direction for hebrew - from right to left */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    width: 70%;
+    background-color: rgb(32, 30, 30);
+    color: white;
+}
+
+#kidnappeds-opening, #soldiers-opening{
+    display: flex;
+    padding: 0 0 10px 0;
+}
+
+#kidnappeds-description, #soldiers-description{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 20px 0;
+    text-wrap: wrap;
+
+}
+
+#kidnappeds-opening iframe, #soldiers-opening iframe{
+    height: 400px;
+    width: 900px;
+}
+
+#kidnappeds-opening, #soldiers-opening{
+    padding-bottom: 100px;
+}
+
+embed {
+    display: none;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+
+
