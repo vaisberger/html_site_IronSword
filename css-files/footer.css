@@ -80,15 +80,13 @@ h1{
         display: none;
     }
     #facebook, #instagram, #youtube{
-        width: 30px;
-        grid-row: 2;
+        width: 25px;
         padding-left: 90px;
     }
     #icons{
         display: flex;
         flex-direction: row;
-        align-content:center;
-        
+        align-content:no a;
     }
     p{
         font-size: 14px;
@@ -96,4 +94,5 @@ h1{
     h2{
         font-size: 18px;
     }
+
 }
