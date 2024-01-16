@@ -1,3 +1,14 @@
+h1{
+    color: white;
+text-align: center;    
+}
+
+.header{
+    direction: rtl;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
 
 table, #volunteer{
     max-width: 70%;
@@ -124,7 +135,15 @@ ul{
       #volunteer{
         margin-right: 100px;
       }
+
+
     #submit{
         margin-left: -50px;
     }
+
+    .header{
+        font-size: 1.1rem;
+    }
+
+    
 } 
