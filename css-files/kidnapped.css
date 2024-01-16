@@ -15,10 +15,17 @@ table, th, td {
 
   border-collapse: collapse;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 th, td {
   background-color: black;
   text-align: center;
+  border: 40px solid black;
+}
+tr{
+    height:400px
 }
 #title{
     color: white;
@@ -39,7 +46,7 @@ h1,h2{
     color: white;
 }
 body{
-    background-color: black;
+    background-color:black;
 }
 
 footer{
@@ -73,5 +80,47 @@ a{
 
 #contact, #follow, #about{
     color: red;
+}
+#barcode{
+    color: white;
+    font-family:Guttman Haim;
+    font-size: 5rem; 
+    z-index: 1;
+    text-shadow: 2px 4px 15px red;
+}
+#qr{
+    margin-right: 30px;
+}
+#ftr{
+    height:300px
+}
+@media screen and (max-width:600px){
+tr{
+    height: 100px;
+}
+th{
+    height: 50px;
+    border: 0px;
+}
+td{
+    background-size: 150%;
+    border: 0px;
+}
+#title{
+    font-size: 4rem; 
+}
+#heart{
+    width: 80px;
+
+}
+#barcode{
+  font-size: 3rem; 
+}
+#QR{
+    width: 80px;
+}
+#ftr{
+    height: 550px;
+}
 }
 

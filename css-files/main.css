@@ -58,7 +58,7 @@ h1{
 
 #grid_main_page{
     display: grid;
-    grid-template-rows: 80px 10px 800px 800px;
+    grid-template-rows: 80px 10px 800px 800px 100px;
 
 }
 
@@ -79,6 +79,10 @@ h1{
     width: 100%;
 
 }
+footer{
+    grid-row: 5;
+}
+
 
 @media (max-width:600px){
     body{
