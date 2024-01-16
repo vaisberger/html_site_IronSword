@@ -87,7 +87,13 @@ h1{
     #icons{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        align-content:center;
         
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 18px;
     }
 }
