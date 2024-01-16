@@ -1,0 +1,73 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  background-color: black;
+}
+
+.emphasise_letters {
+  font-weight: bold;
+  color: red;
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  background: none;
+}
+
+.menu-icon:before {
+  content: "\2630"; /* Unicode character for the hamburger icon */
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a:not(.menu-icon) {
+    display: none;
+  }
+
+  #logo {
+    display: contents;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-icon:checked + .navbar a:not(.menu-icon) {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
