@@ -15,6 +15,9 @@ th, td {
   text-align: center;
   border: 40px solid black;
 }
+tr{
+    height:400px
+}
 #title{
     color: white;
     font-family:Aharoni;
@@ -34,7 +37,7 @@ h1,h2{
     color: white;
 }
 body{
-    background-color:rgb(32, 30, 30);
+    background-color:black;
 }
 
 footer{
@@ -79,24 +82,36 @@ a{
 #qr{
     margin-right: 30px;
 }
-.text{
-    animation: 2s anim-lineUp ease-out infinite;
+#ftr{
+    height:300px
 }
-@keyframes anim-lineUp {
-  0% {
-    opacity: 0;
-    transform: translateY(80%);
-  }
-  20% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
+@media screen and (max-width:600px){
+tr{
+    height: 100px;
+}
+th{
+    height: 50px;
+    border: 0px;
+}
+td{
+    background-size: 150%;
+    border: 0px;
+}
+#title{
+    font-size: 4rem; 
+}
+#heart{
+    width: 80px;
+
+}
+#barcode{
+  font-size: 3rem; 
+}
+#QR{
+    width: 80px;
+}
+#ftr{
+    height: 550px;
+}
 }
 

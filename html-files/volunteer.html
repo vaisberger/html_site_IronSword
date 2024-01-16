@@ -12,8 +12,8 @@
     <div>
         <embed src="/html-files/navigation_bar.html" type="text/html" width="100%" height="100px"> </embed>
     </div>
-    <div>
-        <table id="volunteer" style="text-align: right;">
+    <div id="volunteer">
+        <table style="text-align: right;">
             <tr>
                 <th>תמונה</th>
                 <th>יצירת קשר</th>
@@ -21,57 +21,64 @@
                 <th>מיקום</th>
             </tr>
             <tr>
-                <td><img src="/images/חקלאות.jpeg" style="width: 300px;"></td>
-                <td><ul style="direction: rtl;">
-                    <li>טלפון : ציון 08-4325347</li>
-                    <li>chaklaot@gmail.com</li>
-                </ul></td>
+                <td><img id="chaklaut" src="/images/חקלאות.jpeg"></td>
+                <td>
+                    <ul>
+                        <li>טלפון : ציון 08-4325347</li>
+                        <li>chaklaot@gmail.com</li>
+                    </ul>
+                </td>
                 <td>משק חקלאי באשקלון</td>
-                <td >אשקלון<a href="https://maps.app.goo.gl/7r8EiPK8gpf6XRKN8"><img id="locationicon" src="/images/locationicon.png"></a></td>
+                <td>אשקלון<a href="https://maps.app.goo.gl/7r8EiPK8gpf6XRKN8"><img id="locationicon"
+                            src="/images/locationicon.png"></a></td>
             </tr>
             <tr>
-                <td><img src="/images/ביקור פצועים.jpg" style="width: 170px;"></td>
+                <td><img id="injured" src="/images/ביקור פצועים.jpg"></td>
                 <td>
-                    <ul style="direction: rtl;">
+                    <ul>
                         <li>טלפון : ירדנה 02-536547</li>
                         <li>injured@gmail.com</li>
                     </ul>
                 </td>
                 <td>לשמח פצועים תל-השומר</td>
-                <td>רמת-גן<a href="https://maps.app.goo.gl/hs4P7MnBxDvrsS3W7"><img id="locationicon" src="/images/locationicon.png"></a></td>
+                <td>רמת-גן<a href="https://maps.app.goo.gl/hs4P7MnBxDvrsS3W7"><img id="locationicon"
+                            src="/images/locationicon.png"></a></td>
             </tr>
             <tr>
-                <td><img src="/images/חמל.jpg" style="width: 300px;"></td>
+                <td><img id="chamal" src="/images/חמל.jpg"></td>
                 <td>
-                    <ul style="direction: rtl;">
+                    <ul>
                         <li>טלפון : שלום 09-6387387</li>
                         <li>refugees@gmail.com</li>
                     </ul>
                 </td>
                 <td>חמ"ל תמיכה במפונים</td>
-                <td>נתניה<a href="https://maps.app.goo.gl/Ku9nWFZWd9UPELXx7"><img id="locationicon" src="/images/locationicon.png"></a></td>
+                <td>נתניה<a href="https://maps.app.goo.gl/Ku9nWFZWd9UPELXx7"><img id="locationicon"
+                            src="/images/locationicon.png"></a></td>
             </tr>
             <tr>
-                <td><img src="/images/שיפוץ בהתנדבות.jpg" style="width: 300px;"></td>
+                <td><img id="cons" src="/images/שיפוץ בהתנדבות.jpg"></td>
                 <td>
-                    <ul style="direction: rtl;">
+                    <ul>
                         <li>טלפון : לילך 04-8767545</li>
                         <li>injured@gmail.com</li>
                     </ul>
                 </td>
                 <td>שיפוץ מבנים שנפגעו מרקטות</td>
-                <td>נתיבות<a href="https://maps.app.goo.gl/xX4YeQHAgUKTLaSa7"><img id="locationicon" src="/images/locationicon.png"></a></td>
+                <td>נתיבות<a href="https://maps.app.goo.gl/xX4YeQHAgUKTLaSa7"><img id="locationicon"
+                            src="/images/locationicon.png"></a></td>
             </tr>
             <tr>
-                <td><img src="/images/אריזת תרופות.jpeg"></td>
+                <td><img id="pack" src="/images/אריזת תרופות.jpeg"></td>
                 <td>
-                    <ul style="direction: rtl;">
+                    <ul>
                         <li>טלפון : איציק 06-3289327</li>
                         <li>constructions@gmail.com</li>
                     </ul>
                 </td>
                 <td>אריזת תרופות לשטח</td>
-                <td>ירושלים<a href="https://maps.app.goo.gl/7r8EiPK8gpf6XRKN8"><img id="locationicon" src="/images/locationicon.png"></a></td>
+                <td>ירושלים<a href="https://maps.app.goo.gl/7r8EiPK8gpf6XRKN8"><img id="locationicon"
+                            src="/images/locationicon.png"></a></td>
             </tr>
         </table>
     </div>
@@ -115,12 +122,50 @@
                     </select>
                     <label for="city">עיר</label>
                 </td>
+            </tr>
         </form>
     </table>
-
+    <div class="adj">
+        <table>
+            <tr>
+                <select id="city" name="city" style="text-align: center;">
+                    <option value="ירושלים">ירושלים</option>
+                    <option value="תל אביב">תל אביב</option>
+                    <option value="נתיבות">נתיבות</option>
+                    <option value="אשקלון">אשקלון</option>
+                    <option value="נתניה">נתניה</option>
+                    <option value="ים המלח">ים המלח</option>
+                </select>
+                <label for="city">&nbsp;&nbsp;&nbsp;עיר<br><br></label>
+  
+            </tr>
+            <tr>
+                <select id="v_type" name="v_type" style="text-align: center">
+                    <option value="שינוע ציוד צבאי">שינוע ציוד צבאי</option>
+                    <option value="בישול אוכל לחיילים">בישול אוכל לחיילים</option>
+                    <option value="עזרה לחקלאים">עזרה לחקלאים</option>
+                    <option value="עזרה עם הילדים המפונים">עזרה עם הילדים המפונים</option>
+                    <option value="תמיכה בהסברה">תמיכה בהסברה</option>
+                    <option value="הצטרפות לחמל">הצטרפות לחמ"ל</option>
+                </select>
+                <label for="v_type">&nbsp;&nbsp;&nbsp;התנדבות<br><br></label>
+            </tr>
+            <tr>
+                <input type="text" name="phone-num" id="phone-num" required>
+                <label for="phone-num">&nbsp;&nbsp;&nbsp;טלפון<br><br></label>
+            </tr>
+            <tr>
+                <input type="text" name="full-name" id="full-name" required>
+                <label for="full-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;שם<br><br></label>
+            </tr>
+            <tr style="align-items: center;"> 
+                <button type="submit">שלח</button>
+            </tr>
+        </table>
+    </div>
 </body>
-<footer>
-    <embed src="./footer.html" type="text/html" width="100%" height="300px">
+<footer id="ftr">
+    <embed id="ftr" src="./footer.html" type="text/html" width="100%">
     </embed>
 </footer>
 

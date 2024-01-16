@@ -1,5 +1,5 @@
 
-table{
+table, #volunteer{
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -16,8 +16,10 @@ th, td {
 table, th, td {
     border: 1px solid white;
   }
+
 body{
     background-color:rgb(32, 30, 30);
+    align-items: center;
 }
 #whantovolunteer{
     text-align: center;
@@ -48,3 +50,81 @@ h2{
 .red_letters{
     color: red;
 }
+
+#chaklaut{
+    width: 300px;
+}
+#injured{
+    width: 170px
+}
+#chamal{
+    width: 300px
+}
+#cons{
+    width: 300px
+}
+ul{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#ftr{
+    height:300px
+}
+.adj{
+    display: none;
+}
+@media screen and (max-width:600px) {
+
+    #pack{
+       width:50px ;
+       height: 50px;
+    }
+    #chaklaut{
+        width:50px ;
+       height: 30px;
+    }
+    #injured{
+        width:50px ;
+        height: 50px;
+    }
+    #chamal{
+        width:45px ;
+        height: 50px;
+    }
+    #cons{
+        width:50px ;
+    }
+    td{
+        font-size: 14px;
+    }
+    th{
+        font-size: 20px;
+    }
+    ul{
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    #ftr{
+        height: 550px;
+    }
+    .details{
+        display:none
+    }
+    .adj{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+        color: white;
+        width: 70%;
+    }
+    img:hover {
+        transform: scale(4);
+        transition: transform 0.3s ease;
+      }
+      #volunteer{
+        margin-right: 100px;
+      }
+} 

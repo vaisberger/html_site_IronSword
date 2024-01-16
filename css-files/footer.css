@@ -74,6 +74,7 @@ h1{
     #tbl{
         display: block;
         padding-right: 30px;
+        position: fixed;
     }
     #nav_footer{
         display: none;
