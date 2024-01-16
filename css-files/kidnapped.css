@@ -5,16 +5,15 @@
 table, th, td {
 
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-td{
-    border: 25px solid black;
-}
+
 th, td {
   background-color: black;
   text-align: center;
+  border: 40px solid black;
 }
 #title{
     color: white;
@@ -35,7 +34,7 @@ h1,h2{
     color: white;
 }
 body{
-    background-color: black;
+    background-color:rgb(32, 30, 30);
 }
 
 footer{
@@ -69,5 +68,35 @@ a{
 
 #contact, #follow, #about{
     color: red;
+}
+#barcode{
+    color: white;
+    font-family:Guttman Haim;
+    font-size: 5rem; 
+    z-index: 1;
+    text-shadow: 2px 4px 15px red;
+}
+#qr{
+    margin-right: 30px;
+}
+.text{
+    animation: 2s anim-lineUp ease-out infinite;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 

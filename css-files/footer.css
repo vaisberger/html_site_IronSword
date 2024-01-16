@@ -67,3 +67,26 @@ p{
 h1{
     font-size:2rem;
 }
+#tbl{
+    display: none;
+}
+@media screen and (max-width:600px){
+    #tbl{
+        display: block;
+        padding-right: 30px;
+    }
+    #nav_footer{
+        display: none;
+    }
+    #facebook, #instagram, #youtube{
+        width: 30px;
+        grid-row: 2;
+        padding-left: 90px;
+    }
+    #icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+}
