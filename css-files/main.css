@@ -58,7 +58,7 @@ h1{
 
 #grid_main_page{
     display: grid;
-    grid-template-rows: 80px 10px 800px 800px 100px;
+    grid-template-rows: 80px 10px 800px 800px 300px;
 
 }
 
@@ -81,6 +81,8 @@ h1{
 }
 footer{
     grid-row: 5;
+    width: 100%;
+    height: 300px;
 }
 
 
@@ -115,9 +117,21 @@ footer{
     }
 
     #article{
-       font-size: 1rem;
+       font-size: 1.5rem;
        margin: 0;
        padding: 0px  10px 100px 80px;
        text-align: start;
     }
+
+
+    #grid_main_page{
+        display: grid;
+        grid-template-rows: 80px 10px 800px 800px 550px;
+    
+    }
+
+    footer{
+        height: 550px;
+    }
+
 }

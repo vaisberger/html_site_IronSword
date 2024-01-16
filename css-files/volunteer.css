@@ -6,7 +6,7 @@ table, #volunteer{
     color: white;
 }
 th, td {
-    background-color:rgb(32, 30, 30);
+    background-color: border;
     text-align: center;
     border: 0px solid black;
   }
@@ -18,7 +18,7 @@ table, th, td {
   }
 
 body{
-    background-color:rgb(32, 30, 30);
+    background-color: black;
     align-items: center;
 }
 #whantovolunteer{
