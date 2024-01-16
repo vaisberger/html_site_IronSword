@@ -141,6 +141,11 @@ strong{
     font-size: 4rem;
 }
 
+#ftr{
+    width: 100%;
+    height: 300px;
+}
+
 @media screen and (max-width:600px){
     .martyr-container{
         display: flex;

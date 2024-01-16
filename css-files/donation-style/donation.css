@@ -104,4 +104,8 @@ h2{
         font-size: 1.7rem;
         margin: 20px 0px;
     }
+
+    #ftr{
+        height: 550px;
+    }
 }
