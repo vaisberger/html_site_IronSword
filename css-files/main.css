@@ -81,23 +81,22 @@ h1{
 }
 footer{
     grid-row: 5;
+}
+
+#ftr{
     width: 100%;
     height: 300px;
 }
-
 
 @media (max-width:600px){
     body{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
     #grid_main_page{
         display: grid;
-        grid-template-rows: auto;
+        grid-template-rows: auto 10px 400px 600px 550px;
     }
 
     .navbar{
@@ -105,7 +104,7 @@ footer{
     }
 
     #war{
-        margin: 30px 0px;
+        margin: 30px 0px 10px 0px;
     }
 
     #war h1{
@@ -123,14 +122,7 @@ footer{
        text-align: start;
     }
 
-
-    #grid_main_page{
-        display: grid;
-        grid-template-rows: 80px 10px 800px 800px 550px;
-    
-    }
-
-    footer{
+    #ftr{
         height: 550px;
     }
 
