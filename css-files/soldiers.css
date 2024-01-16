@@ -187,4 +187,9 @@ strong{
     #on-page-nav{
         width: fit-content;
     }
+
+    #ftr{
+        height: 550px;
+    }
+    
 }

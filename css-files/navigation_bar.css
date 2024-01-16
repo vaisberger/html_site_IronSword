@@ -17,7 +17,7 @@ body {
   overflow: hidden;
   background-color: black;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 .navbar a {
@@ -45,6 +45,11 @@ body {
 
 .menu-icon:before {
   content: "\2630"; /* Unicode character for the hamburger icon */
+}
+
+#logo{
+  margin:0;
+  padding: 0;
 }
 
 @media screen and (max-width: 600px) {

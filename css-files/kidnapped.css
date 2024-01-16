@@ -1,126 +1,127 @@
-.navbar{
-    width: 100%;
-    height: fit-content;
+.navbar {
+  width: 100%;
+  height: fit-content;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-#heart{
-    width: 90px;
-
+#heart {
+  width: 90px;
 }
-table, th, td {
-
+table,
+th,
+td {
   border-collapse: collapse;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-th, td {
+th,
+td {
   background-color: black;
   text-align: center;
   border: 40px solid black;
 }
-tr{
-    height:400px
+tr {
+  height: 400px;
 }
-#title{
-    color: white;
-    font-family:Aharoni;
-    font-size: 5rem; 
-    z-index: 1;
+#title {
+  color: white;
+  font-family: Aharoni;
+  font-size: 5rem;
+  z-index: 1;
 }
-.navigation_bar{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    direction: rtl;
+.navigation_bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  direction: rtl;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-h1,h2{
-    color: white;
+h1,
+h2 {
+  color: white;
 }
-body{
-    background-color:black;
-}
-
-footer{
-    display: grid;
-    grid-template-rows: 100px 50px;
-    margin: auto;
+body {
+  background-color: black;
 }
 
-#nav_footer{
-    border: 0px;
-    padding-bottom: 0px;
-    padding-top: 30px;
-    align-content: end;
-    grid-row: 1;
+footer {
+  display: grid;
+  grid-template-rows: 100px 50px;
+  margin: auto;
 }
 
-#icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+#nav_footer {
+  border: 0px;
+  padding-bottom: 0px;
+  padding-top: 30px;
+  align-content: end;
+  grid-row: 1;
 }
 
-#facebook, #instagram, #youtube{
-    width: 30px;
-    grid-row: 2;
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-a{
-    text-decoration: none;
+#facebook,
+#instagram,
+#youtube {
+  width: 30px;
+  grid-row: 2;
 }
 
-#contact, #follow, #about{
-    color: red;
+a {
+  text-decoration: none;
 }
-#barcode{
-    color: white;
-    font-family:Guttman Haim;
-    font-size: 5rem; 
-    z-index: 1;
-    text-shadow: 2px 4px 15px red;
+
+#contact,
+#follow,
+#about {
+  color: red;
 }
-#qr{
-    margin-right: 30px;
+#barcode {
+  color: white;
+  font-family: Guttman Haim;
+  font-size: 5rem;
+  z-index: 1;
+  text-shadow: 2px 4px 15px red;
 }
-#ftr{
-    height:300px
+#qr {
+  margin-right: 30px;
 }
-@media screen and (max-width:600px){
-tr{
+#ftr {
+  height: 300px;
+}
+@media screen and (max-width: 600px) {
+  tr {
     height: 100px;
-}
-th{
+  }
+  th {
     height: 50px;
     border: 0px;
-}
-td{
+  }
+  td {
     background-size: 150%;
     border: 0px;
-}
-#title{
-    font-size: 4rem; 
-}
-#heart{
+  }
+  #title {
+    font-size: 4rem;
+  }
+  #heart {
     width: 80px;
-
-}
-#barcode{
-  font-size: 3rem; 
-}
-#QR{
+  }
+  #barcode {
+    font-size: 3rem;
+  }
+  #QR {
     width: 80px;
+  }
 }
-#ftr{
-    height: 550px;
-}
-}
-
