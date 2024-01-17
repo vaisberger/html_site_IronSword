@@ -58,7 +58,7 @@ h1{
 
 #grid_main_page{
     display: grid;
-    grid-template-rows: 80px 10px 800px 800px 300px;
+    grid-template-rows: 80px 10px 800px 600px 300px;
 
 }
 
